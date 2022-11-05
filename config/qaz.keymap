@@ -42,16 +42,16 @@
     &trans     &trans     &trans     &trans     &trans &trans &trans     &trans     &trans     &trans
     &trans     &trans     &trans     &trans     &trans &trans &trans     &trans     &trans     &trans
     &trans                &trans     &trans     &trans &trans &trans     &trans     &trans     &trans
-    &trans     &trans     &trans        &trans        &trans             &trans     &trans     &trans
+    &trans     &trans     &none        &none        &trans               &none      &trans     &trans
             >;
         };
 
     nav {
             bindings = <
-    &trans     &trans     &trans     &trans     &trans &tran  &trans     &trans     &trans     &trans
+    &trans     &trans     &trans     &trans     &trans &trans &trans     &trans     &trans     &trans
     &trans     &trans     &trans     &trans     &trans &trans &trans     &trans     &trans     &trans
     &trans                &trans     &trans     &trans &trans &trans     &trans     &trans     &trans
-    &trans     &trans     &trans        &trans        &trans             &trans     &trans     &trans
+    &trans     &trans     &none        &none        &trans               &none      &trans     &trans
             >;
         };
     };
