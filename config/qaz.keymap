@@ -30,7 +30,7 @@
     };
 };
 
-/ {
+/ { 
     keymap {
         compatible = "zmk,keymap";
 
