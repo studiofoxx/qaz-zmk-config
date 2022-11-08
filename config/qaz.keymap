@@ -50,7 +50,6 @@
     flavor = "balanced";
     tapping-term-ms = <200>;
     quick-tap-ms = <200>;
-    balanced-hold-tap;
     bindings = <&kp>, <&kp>;
         };
     };
