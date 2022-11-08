@@ -39,8 +39,18 @@
     #binding-cells = <2>;
     flavor = "tap-preferred";
     tapping-term-ms = <200>;
-    quick-tap-ms = <125>;
+    quick-tap-ms = <200>;
     global-quick-tap;
+    bindings = <&kp>, <&kp>;
+        };
+        ht_bl: balanced-hold-tap {
+    compatible = "zmk,behavior-hold-tap";
+    label = "BALANCED-HOLD-TAP";
+    #binding-cells = <2>;
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <200>;
+    balanced-hold-tap;
     bindings = <&kp>, <&kp>;
         };
     };
